@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+main{
+    background-image: url('https://th.bing.com/th/id/R.1effd96d404f243c89703973574da4db?rik=3f%2b61aftUxZnqQ&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f05%2f26%2f349970-abstract-planet-space.jpg&ehk=XCGU%2bAx9Jk62zt0Z5cdyt8OZSwGL5ztz6rF%2fxLDgJAg%3d&risl=&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+}
+header{
+    padding: 7vh;
+    background-color: rgb(26, 26, 26);
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.perfil{
+    width: 30%;
+    border-radius: 20px;
+    border: 10px rgb(0, 0, 0) solid;
+}
+a{
+    font-size: 4vh;
+    color: aliceblue;
+    text-decoration: none;
+}
+h1{
+    padding-top: 2%;
+    margin-top: 0;
+    color: azure;
+    text-decoration: underline;
+}
+p{
+    color: azure;
+    font-size: 3vh;
+}
+header{
+    height: 7%;
+    text-align: center;
+}
