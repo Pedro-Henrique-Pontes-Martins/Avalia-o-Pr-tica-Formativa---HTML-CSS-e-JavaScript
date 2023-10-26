@@ -13,10 +13,12 @@ main{
 }
 header{
     padding: 7vh;
+    width: 100%;
     background-color: rgb(26, 26, 26);
     margin: 0;
     display: flex;
     justify-content: space-around;
+    position: fixed;
 }
 .imgperfil{
     width: 50%;
@@ -72,4 +74,15 @@ li{
     margin-left: 40%;
     font-size: 3vh;
     margin-bottom: 2%;
+}
+.contatos{
+    border: 3px aliceblue solid;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 3%;
+    border-radius: 20px;
+}
+.contatos img{
+    margin: 0 10%;
+    width: 25%;
 }
