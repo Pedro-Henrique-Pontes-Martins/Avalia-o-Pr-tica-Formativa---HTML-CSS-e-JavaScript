@@ -11,12 +11,26 @@ main{
     margin: 0;
     padding: 3%;
 }
+.menu{
+    display: block;
+    width: 8%;
+    height: 15vh;
+    position: fixed;
+}
+.menu img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 8%;
+}
 header{
     padding: 7vh;
+    width: 100%;
     background-color: rgb(26, 26, 26);
     margin: 0;
-    display: flex;
+    display: none;
     justify-content: space-around;
+    position: relative;
 }
 .imgperfil{
     width: 50%;
@@ -72,4 +86,15 @@ li{
     margin-left: 40%;
     font-size: 3vh;
     margin-bottom: 2%;
+}
+.contatos{
+    border: 3px aliceblue solid;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 3%;
+    border-radius: 20px;
+}
+.contatos img{
+    margin: 0 10%;
+    width: 25%;
 }
