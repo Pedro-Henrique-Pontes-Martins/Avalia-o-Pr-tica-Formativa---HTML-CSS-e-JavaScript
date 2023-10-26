@@ -9,6 +9,7 @@ main{
     background-size: cover;
     text-align: center;
     margin: 0;
+    padding: 3%;
 }
 header{
     padding: 7vh;
@@ -17,10 +18,10 @@ header{
     display: flex;
     justify-content: space-around;
 }
-.perfil{
-    width: 30%;
+.imgperfil{
+    width: 50%;
     border-radius: 20px;
-    border: 10px rgb(0, 0, 0) solid;
+    border: 5px aliceblue solid;
 }
 a{
     font-size: 4vh;
@@ -33,6 +34,9 @@ h1{
     color: azure;
     text-decoration: underline;
 }
+h2{
+    color: azure;
+}
 p{
     color: azure;
     font-size: 3vh;
@@ -40,4 +44,32 @@ p{
 header{
     height: 7%;
     text-align: center;
+}
+.sobre{
+    border: 3px aliceblue solid;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 3%;
+}
+.perfil{
+    border: 3px aliceblue solid;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 3%;
+    border-radius: 20px;
+}
+.habilidades{
+    border: 3px aliceblue solid;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 3%;
+    border-radius: 20px;
+}
+li{
+    text-align: left;
+    color: aliceblue;
+    margin-left: 40%;
+    font-size: 3vh;
+    margin-bottom: 2%;
 }
