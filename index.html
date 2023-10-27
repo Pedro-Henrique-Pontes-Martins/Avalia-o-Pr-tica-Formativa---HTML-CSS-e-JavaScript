@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
     <title>Avaliação Front-end</title>
 </head>
 <body>
@@ -18,7 +21,7 @@
 
     <main>
         <input type="image" src="imagens/simbolo-do-menu-de-tres-linhas-arredondadas-contornadas.png" class="menu" id="botaoAbrir" onclick="abrirMenu()">
-        <div class="perfil" id="pefil">
+        <div class="perfil" id="perfil">
             <h1>Minha Página</h1>
             <img src="imagens/Perfil.jpg" alt="link do github" class="imgperfil">
             <p>Nome: Pedro Henrique Pontes Martins</p>
@@ -50,6 +53,25 @@
             <a href="https://www.codewars.com/users/Pedro-Henrique-Pontes-Martins"><img src="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=Codewars&logoColor=white" alt="codewars"></a>
             
         </div>
+        <form class="formulario">
+            <h1>Formulário</h1>
+        <label>Texto:</label>
+		<input type="text" name="texto" required>
+
+        <label>Email:</label>
+		<input type="email" name="nome" required>
+
+        <label>Telefone:</label>
+		<input type="number" name="number" required>
+
+        <label>Data de Nascimento:</label>
+		<input type="date" name="number" required>
+
+        <label>Comentário:</label>
+		<textarea class="caixa-de-texto" required></textarea>
+
+        <input type="submit" value="Enviar" class="enviar">
+        </form>
         
     </main>
 
