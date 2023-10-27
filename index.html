@@ -7,28 +7,29 @@
     <title>Avaliação Front-end</title>
 </head>
 <body>
-    <header>
-        <a href="">Perfil</a>
-        <a href="">Sobre Mim</a>
-        <a href="">Habilidades</a>
-        <a href="">Contatos</a>
-
+    <header id="navbar">
+        <input type="image" src="imagens/cancelar.png" class="menu" id="botaoFechar" onclick="fecharMenu()">
+        <a href="#perfil">Perfil</a>
+        <a href="#sobre">Sobre Mim</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contatos">Contatos</a>
+        <script src="main.js"></script>
     </header>
 
     <main>
-        <button class="menu"><img src="/imagens/menu-burger-removebg-preview.png" alt=""></button>
-        <div class="perfil">
+        <input type="image" src="imagens/simbolo-do-menu-de-tres-linhas-arredondadas-contornadas.png" class="menu" id="botaoAbrir" onclick="abrirMenu()">
+        <div class="perfil" id="pefil">
             <h1>Minha Página</h1>
             <img src="imagens/Perfil.jpg" alt="link do github" class="imgperfil">
             <p>Nome: Pedro Henrique Pontes Martins</p>
             <p>Idade: 16 anos</p>
             <p>Conhecimentos: HTML, CSS, JavaScript e Banco de Dados</p>
         </div>
-        <div class="sobre">
+        <div class="sobre" id="sobre">
             <h1>Sobre mim</h1>
             <p>Estudo no Senai Almirante Tamandaré. O que eu mais gosto de fazer é dormir</p>
         </div>
-        <div class="habilidades">
+        <div class="habilidades" id="habilidades">
             <h1>Habilidades</h1>
             <h2>Hard Skills</h2>
             <ul>
@@ -42,7 +43,7 @@
             <br>
             <br>
         </div>
-        <div class="contatos">
+        <div class="contatos" id="contatos">
             <h1>Contatos</h1>
             <a href="https://github.com/Pedro-Henrique-Pontes-Martins"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="gitHub"></a>
 
